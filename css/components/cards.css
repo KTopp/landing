@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: rgb(38, 41, 43) 0px 0px 5px;
+  border-color: rgb(55, 60, 62);
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  width: 150px;
+}
+
+.card p {
+  opacity: .5;
+}
